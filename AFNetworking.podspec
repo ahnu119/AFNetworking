@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source_files = 'AFNetworking/AFNetworking.h'
     # 添加隐私清单配置
   s.resource_bundles = {
-    'AFNetworking' => ['PrivacyInfo.xcprivacy']
+    'AFNetworking' => ['AFNetworking/PrivacyInfo.xcprivacy']
   }
 
   s.subspec 'Serialization' do |ss|
